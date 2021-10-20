@@ -1,0 +1,492 @@
+dioge@LAPTOP-13O66G8G MINGW64 ~
+$ cd onedrive
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive
+$ mdir raiz
+bash: mdir: command not found
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive
+$ mkdir raiz
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive
+$ cd raiz
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mkdir pasta1
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mkdir pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mkdir pasta3
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta1
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mkdir criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mkdir mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mkdir excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rmdir criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rmdir excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rmdir mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ touch criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ touch excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ touch mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ cd pasta3
+bash: cd: pasta3: No such file or directory
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta3
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ touch criar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ touch mover3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ touch excluir3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ cd..
+bash: cd..: command not found
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta1
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rm excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ ls
+criar.txt  mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mv mover1.txt ../pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ ls
+criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ ls
+mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta3
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ rm excluir3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ mv mover3.txt ../pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ ls
+criar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ ls
+mover1.txt  mover3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mv pasta2 Pasta002
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls
+Pasta002/  pasta1/  pasta3/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mv pasta1 Pasta001
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mv pasta3 Pasta003
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls
+Pasta001/  Pasta002/  Pasta003/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta001
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ ls
+criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ mv criar.txt Criação.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ ls
+Criação.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta002
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ ls
+mover1.txt  mover3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv mover1.txt deslocar1.tx
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv mover3.txt deslocar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ ls
+deslocar1.tx  deslocar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv ^C
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv deslocar1.tx deslocar1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ ls
+deslocar1.txt  deslocar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta003,
+bash: cd: Pasta003,: No such file or directory
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta003
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ ls
+criar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ mv criar3.txt Criação3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ ls
+Criação3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls
+Pasta001/  Pasta002/  Pasta003/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls -l
+total 0
+drwxr-xr-x 1 dioge 197609 0 Oct 20 00:14 Pasta001/
+drwxr-xr-x 1 dioge 197609 0 Oct 20 00:17 Pasta002/
+drwxr-xr-x 1 dioge 197609 0 Oct 20 00:17 Pasta003/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls -R
+.:
+Pasta001/  Pasta002/  Pasta003/
+
+./Pasta001:
+Criação.txt
+
+./Pasta002:
+deslocar1.txt  deslocar3.txt
+
+./Pasta003:
+Criação3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$
+dioge@LAPTOP-13O66G8G MINGW64 ~
+$ cd onedrive
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive
+$ mdir raiz
+bash: mdir: command not found
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive
+$ mkdir raiz
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive
+$ cd raiz
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mkdir pasta1
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mkdir pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mkdir pasta3
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta1
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mkdir criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mkdir mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mkdir excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rmdir criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rmdir excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rmdir mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ touch criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ touch excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ touch mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ cd pasta3
+bash: cd: pasta3: No such file or directory
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta3
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ touch criar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ touch mover3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ touch excluir3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ cd..
+bash: cd..: command not found
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta1
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ rm excluir.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ ls
+criar.txt  mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ mv mover1.txt ../pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ ls
+criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta1
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ ls
+mover1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta3
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ rm excluir3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ mv mover3.txt ../pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ ls
+criar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta3
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd pasta2
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ ls
+mover1.txt  mover3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/pasta2
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mv pasta2 Pasta002
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls
+Pasta002/  pasta1/  pasta3/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mv pasta1 Pasta001
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ mv pasta3 Pasta003
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls
+Pasta001/  Pasta002/  Pasta003/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta001
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ ls
+criar.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ mv criar.txt Criação.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ ls
+Criação.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta001
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta002
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ ls
+mover1.txt  mover3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv mover1.txt deslocar1.tx
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv mover3.txt deslocar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ ls
+deslocar1.tx  deslocar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv ^C
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ mv deslocar1.tx deslocar1.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ ls
+deslocar1.txt  deslocar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta002
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta003,
+bash: cd: Pasta003,: No such file or directory
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ cd Pasta003
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ ls
+criar3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ mv criar3.txt Criação3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ ls
+Criação3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz/Pasta003
+$ cd ..
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls
+Pasta001/  Pasta002/  Pasta003/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls -l
+total 0
+drwxr-xr-x 1 dioge 197609 0 Oct 20 00:14 Pasta001/
+drwxr-xr-x 1 dioge 197609 0 Oct 20 00:17 Pasta002/
+drwxr-xr-x 1 dioge 197609 0 Oct 20 00:17 Pasta003/
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$ ls -R
+.:
+Pasta001/  Pasta002/  Pasta003/
+
+./Pasta001:
+Criação.txt
+
+./Pasta002:
+deslocar1.txt  deslocar3.txt
+
+./Pasta003:
+Criação3.txt
+
+dioge@LAPTOP-13O66G8G MINGW64 ~/onedrive/raiz
+$
